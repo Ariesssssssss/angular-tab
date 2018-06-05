@@ -1,0 +1,12 @@
+<div class="sidebar">
+  <ul nz-menu [nzMode]="'inline'" style="width: 240px;">
+    <li nz-submenu>
+      <span title><i class="anticon anticon-appstore"></i>系统管理</span>
+      <ul>
+        <li nz-menu-item (click)="tabs('page1')">页面1</li>
+        <li nz-menu-item (click)="tabs('page2')">页面2</li>
+        <li nz-menu-item (click)="tabs('page3')">页面3</li>
+      </ul>
+    </li>
+  </ul>
+</div>
